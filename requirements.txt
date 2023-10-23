@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib.pyplot
+dash
+dash_table
+dash.dcc
+dash.html
+dash.dependencies.Output
+dash.dependencies.Input
+seaborn
+plotly.graph_objs
+plotly.express
+dash_bootstrap_components
