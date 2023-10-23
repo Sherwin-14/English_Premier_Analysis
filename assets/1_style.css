@@ -1,0 +1,136 @@
+body {
+    background-color: '#E6E6FA';
+    margin:0;
+}
+
+colors = {
+    'background': '#000000',  # Black color
+    'text': '#000000'
+}
+
+
+
+.funkyCard {
+
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: black; /* Text color */
+  font-family: 'Arial'; /* Funky font */
+  border-radius: 15px; /* Rounded corners */
+  text-align: center; /* Centered text */
+  display: flex; /* Flex container */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center child elements horizontally */
+  justify-content: center; /* Center child elements vertically */
+  width: 300px; /* Adjust this value to change the width */
+  height: 100px; /* Adjust this value to change the height */
+}
+
+.funkyCard1 {
+
+ background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: black; /* Text color */
+  font-family: 'Arial', cursive, sans-serif; /* Funky font */
+  border-radius: 15px; /* Rounded corners */
+  text-align: center; /* Centered text */
+  display: flex; /* Flex container */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center child elements horizontally */
+  justify-content: center; /* Center child elements vertically */
+  width: 300px; /* Adjust this value to change the width */
+  height: 100px;
+}
+
+
+
+.funkyCard2 {
+   background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: black; /* Text color */
+  font-family: 'Arial', cursive, sans-serif; /* Funky font */
+  border-radius: 15px; /* Rounded corners */
+  text-align: center; /* Centered text */
+  display: flex; /* Flex container */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center child elements horizontally */
+  justify-content: center; /* Center child elements vertically */
+  width: 300px; /* Adjust this value to change the width */
+  height: 100px;
+}
+
+.funkyCard3 {
+   background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); /* Yellow color */
+  color: black; /* Text color */
+  font-family: 'Arial', cursive, sans-serif; /* Funky font */
+  text-align: center; /* Centered text */
+  border-radius: 15px; /* Rounded corners */
+  display: flex; /* Flex container */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center child elements horizontally */
+  justify-content: center; /* Center child elements vertically */
+  width: 300px; /* Adjust this value to change the width */
+  height: 100px; /* Adjust this value to change the height */
+}
+
+
+.funkyCard4 {
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); /* Light Blue color */
+  color: black; /* Text color */
+  font-family: 'Arial', cursive, sans-serif; /* Funky font */
+  text-align: center; /* Centered text */
+  border-radius: 15px; /* Rounded corners */
+  display: flex; /* Flex container */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center child elements horizontally */
+  justify-content: center; /* Center child elements vertically */
+  width: 300px; /* Adjust this value to change the width */
+  height: 100px; /* Adjust this value to change the height */
+}
+
+
+figure4(
+
+     padding-right: 10px;
+
+)
+
+
+
+dcc.Graph(
+    
+   figure={
+    'layout':{
+        'plot_bgcolor':colors['background'],
+        'paper_bgcolor':colors['background'],
+        'font':{
+            'color':colors['text']
+        }
+      }
+   align='center'
+
+   }
+)
+
