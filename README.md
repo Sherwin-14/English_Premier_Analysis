@@ -1,4 +1,4 @@
-# English Premier League
+# English Premier League Analysis
 
 **Project Overview***: This project conducts an in-depth Exploratory Data Analysis (EDA) of the English Premier League (EPL), the world’s most prestigious football league, featuring top teams from England and Wales. The analysis focuses on the 2020/21 season, a period full of excitement, memorable moments, and surprises.
 
