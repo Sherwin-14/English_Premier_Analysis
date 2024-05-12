@@ -5,9 +5,8 @@ dash
 dash_table
 dash-core-components
 dash-html-components
-dash.dependencies.Output
-dash.dependencies.Input
 seaborn
 plotly.graph_objs
 plotly.express
 dash_bootstrap_components
+
