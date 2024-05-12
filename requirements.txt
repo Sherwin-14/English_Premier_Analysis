@@ -3,8 +3,8 @@ pandas
 matplotlib
 dash
 dash_table
-dash.dcc
-dash.html
+dash-core-components
+dash-html-components
 dash.dependencies.Output
 dash.dependencies.Input
 seaborn
