@@ -6,7 +6,8 @@ dash_table
 dash-core-components
 dash-html-components
 seaborn
-plotly.graph_objs
+plotly
 plotly.express
 dash_bootstrap_components
+
 
