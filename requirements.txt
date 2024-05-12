@@ -9,5 +9,4 @@ seaborn
 plotly
 plotly.express
 dash_bootstrap_components
-
-
+gunicorn
